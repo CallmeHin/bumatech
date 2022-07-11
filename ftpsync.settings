@@ -1,0 +1,12 @@
+{
+    "default": {
+
+        "host": "125.212.252.103",
+        "username": "web2",  // or null for anonymous login
+        "password": "Kda#77iuaT",
+        "path": "/domains/demo2103.seomarketing.edu.vn/public_html/bumatech_layout",
+
+        "upload_on_save": true, // set *false* if you do not want to upload on save!
+        "overwrite_newer_prevention": false,
+    }
+}

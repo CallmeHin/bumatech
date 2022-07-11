@@ -1,0 +1,91 @@
+.p-detail-6 {
+    margin: 40px 0;
+}
+.p-detail-6 .b_thumb{
+    margin: 1px;
+}
+.p-detail-6 .b_thumb.ht-ratio--75::before{
+    padding-bottom: calc(75% - 1.29px);
+}
+.p-detail-6 .p_box .title, .p-detail-6 .p_form .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.25em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+.p-detail-6 .p_box .title>span, .p-detail-6 .p_form .title>span {
+    font-size: 16px;
+}
+.p-detail-6 .p_box .title>span::after, .p-detail-6 .p_form .title>span::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: rgba(255, 0, 0, 0);
+    background-image: -webkit-linear-gradient(right, rgba(255, 0, 0, 0), #ccc 100%);
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #ccc 100%);
+}
+.p-detail-6 .p_box .address {
+    color: #2585b9;
+    margin-bottom: 12px;
+}
+.p-detail-6 .p_box .address i {
+    color: #2585b9;
+}
+.p-detail-6 .p_box .desc {
+    font-size: 1.072em;
+    line-height: 1.667em;
+    color: #666;
+    margin-bottom: 10px;
+}
+.p-detail-6 .p_box .info>li {
+    font-size: 14px;
+    padding-left: 0.715em;
+    margin-bottom: 8px;
+}
+.p-detail-6 .p_box .info>li span {
+    display: inline-block;
+    width: 110px;
+    color: #666;
+}
+.p-detail-6 .p_box .info>li::before {
+    font-family: FontAwesome;
+    font-size: inherit;
+    display: inline-block;
+    width: 1.072em;
+    margin-right: 6px;
+    color: #ccc;
+    text-align: center;
+}
+.p-detail-6 .p_map {
+    line-height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.p-detail-6 .p_map iframe {
+    width: 100%;
+    height: 305px;
+    padding: 3px;
+    border: 1px solid #f3f3f3 !important;
+}
+.p-detail-6 .p_detail {
+    background-color: #f3f3f3;
+    padding: 40px;
+}
+.p-detail-6 .p_detail .ht-format-detail {
+    background-color: #fff;
+    padding: 40px;
+}
+/* END p-detail-6 */
+@media screen and (max-width: 1259px) {
+    .p-detail-6 .p_box{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .p-detail-6 .p_detail ,.p-detail-6 .p_detail .ht-format-detail{
+        padding: 10px;
+    }
+}
